@@ -1,0 +1,29 @@
+#include <iostream>
+#include <conio.h>
+#include <math.h>
+
+float VolCilindro(float h,float r)
+{float k;
+k=3.1415*r*r*h;
+return k;
+}
+
+
+
+
+
+#include <iostream>
+#include <conio.h>
+#include "VOLUMEN.h"
+
+using namespace std;
+
+void main()
+{float r,h;
+cout<<"Ingrese el radio:";
+cin>>r;
+cout<<"Ingrese la altura:";
+cin>>h;
+cout<<"El volumendel cilindro es:"<<VolCilindro(h,r);
+getch();
+}
