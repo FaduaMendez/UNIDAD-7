@@ -1,0 +1,19 @@
+#include <conio.h>
+#include <iostream>
+#include "funciones.h"
+using namespace std;
+
+void main()
+{float x1,x2,x3,x4,x5;
+x1=f(2);
+x2=g(h(2));
+x3=k(g(2)+h(2));
+x4=f(0)+f(1)+f(2);
+x5=f(-1)+g(-1)+h(-1)+k(-1);
+cout<<x1<<endl;//	EL RESULTADO ES 39
+cout<<x2<<endl;//	EL RESULTADO ES 400
+cout<<x3<<endl;//	EL RESULTADO ES 92
+cout<<x4<<endl;//	EL RESULTADO ES 62
+cout<<x5<<endl;//	EL RESULTADO ES 0
+getch();
+}
